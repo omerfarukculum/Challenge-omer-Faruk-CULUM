@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row my-4 col-md-10 mx-auto">
+    <h1 class="mt-4 text-center">Salonda Gösterime Giren Tüm Filmleri listele(Lütfen birkaç saniye bekleyin)</h1>
+    <div class="col-lg-6 mx-auto">
+        <select class="form-control" id="salonId" name="salon" required>
+            <option value="" selected disabled>Salon Seçiniz..</option>
+        </select>
+        <a href="#" id="getSalonFilms" class=" btn btn-warning my-4">Ara</a>
+    </div>
+
+
+</div>
+<h1 class="mt-4 text-center">salonda gösterime giren filmler</h1>
+<div class="row my-4 col-md-10 mx-auto" id="SalonFilms">
+
+
+</div>
+
+<div class="row my-4 col-md-10 mx-auto">
+    <h1 class="mt-4 text-center">filmin hangi salonlarda gösterime girdiğini listele</h1>
+    <div class="col-lg-6 mx-auto">
+        <select class="form-control" id="filmId" name="film" required>
+            <option value="" selected disabled>Film Seçiniz..</option>
+        </select>
+        <a href="#" id="getFilmSalons" class=" btn btn-warning my-4">Ara</a>
+    </div>
+    <h1 class="mt-4 text-center">filmin gösterime girdiği salonlar ve gösterim yılı</h1>
+    <div class="row my-4 col-md-10 mx-auto" id="filmSalons">
+
+
+    </div>
+
+</div>
+<div class="row my-5">
+
+    <div class="col-lg-12  mx-auto">
+        <div class="card col-md-10  mx-auto ">
+            <div class="card-body col-md-10 mx-auto ">
+                <h4 class="card-title">x yapım yılı ile y yapım yılı arasındaki filmleri listele</h4>
+                <div class="basic-form col-md-12">
+                    <form class="mx-auto col-md-12">
+                        <div class="form-row">
+                            <div class="form-group my-3 col-md-12">
+                                <label>x yapım yılı</label>
+                                <input type="text" id="x-yapimyili" class="form-control">
+                            </div>
+                            <div class="form-group my-3 col-md-12">
+                                <label>y yapım yılı</label>
+                                <input type="text" id="y-yapimyili" class="form-control">
+                            </div>
+                        </div>
+
+                        <a href="#" id="yapimyilsearch" class="btn btn-success my-4">Kaydet</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<h1 class="mt-4 text-center">bu yapım yılı aralıklarındaki filmler</h1>
+<div class="row my-4 col-md-10 mx-auto" id="filmYapimYil">
+
+
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="~/wwwroot/ChallengeJs/FilmScript.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        fillSalonDropdown();
+        fillFilmDropdown();
+    });
+</script>

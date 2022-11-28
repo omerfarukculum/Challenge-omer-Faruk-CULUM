@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "UpdateFilm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1  class="mt-4 text-center">Filmler</h1>
+<div class="row my-4 col-md-10 mx-auto" id="UpdateFilmCard">
+
+
+</div>
+
+<div class="modal fade" id="editFilmModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <form id="editFilmForm">
+
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Film Güncelle</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form  id="editFilmForm">
+
+
+                    <div class="modal-body">
+
+                        <div class="form-row">
+                            <input type="hidden" id="val-filmid" class="form-control">
+                            <div class="form-group my-3 col-md-12">
+                                <label class="my-2">Film Adı :</label>
+                                <input type="text" id="val-filmad" class="form-control">
+                            </div>
+                            <div class="form-group my-3 col-md-12">
+                                <label class="my-2">Film Yapım Yılı :</label>
+                                <input type="text" id="val-filmyapimyil" class="form-control">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Vazgeç</button>
+                        <a href="#" id="updateFilm" class="btn btn-success">Kaydet</a>
+                    </div>
+                </form>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="~/wwwroot/ChallengeJs/FilmScript.js"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+            UpdateFilms();
+        });
+</script>
+

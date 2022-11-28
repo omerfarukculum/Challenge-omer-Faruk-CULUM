@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C.DataAccess.Entities
+{
+    public class Film : BaseEntity
+    {
+     
+        public string filmAd { get; set; }
+        public int filmYapimYil { get; set; }
+       
+    }
+}

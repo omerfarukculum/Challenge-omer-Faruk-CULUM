@@ -1,0 +1,12 @@
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\bin\Debug\C.DataAccess.dll.config
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\bin\Debug\C.DataAccess.dll
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\bin\Debug\C.DataAccess.pdb
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\obj\Debug\C.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\obj\Debug\C.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\obj\Debug\C.DataAccess.csproj.CopyComplete
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\obj\Debug\C.DataAccess.dll
+C:\Users\Faruk CULUM\source\repos\Challenge\C.DataAccess\obj\Debug\C.DataAccess.pdb
